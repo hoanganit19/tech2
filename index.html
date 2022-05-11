@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="" type="image/x-icon" />
+    <title>Tech 2</title>
+    <!-- ==================font-icon============== -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- ===================font-family================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ========================lib slick======================== -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ======================bootstrap====================== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- ==============================header=========================== -->
+    <header id="header" class="py-md-5 py-3 position-relative start-0 end-0 top-0">
+      <div class="container">
+        <div class="row">
+          <div class="menu d-flex justify-content-between align-items-center p-0">
+            <h1 class="text-center">
+              <a href="#"><img src="./images/logo_tech2.png" alt="" /></a>
+            </h1>
+            <ul class="d-flex justify-content-center align-items-center d-none d-lg-flex">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Help</a></li>
+            </ul>
+            <div class="auth d-lg-flex d-none">
+              <a href="#" class="signin px-5"><span>Sign In</span></a>
+              <a href="#" class="signup px-5 rounded-pill"><span>Sign Up</span></a>
+            </div>
+            <span
+              class="btn-hamburger-menu d-xs-block d-lg-none"
+              data-bs-toggle="dropdown"
+              data-target="#navbarToggle"
+              aria-controls="navbarToggle"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars fa-2x"></i>
+            </span>
+            <div
+              class="dropdown-menu d-xs-block d-lg-none rounded-0 border-bottom border-top py-4"
+              id="navbarToggle"
+            >
+              <ul class="d-flex justify-content-center flex-column flex-sm-row px-0">
+                <li><a href="#" class="dropdown-item">About</a></li>
+                <li><a href="#" class="dropdown-item">Features</a></li>
+                <li><a href="#" class="dropdown-item">Pricing</a></li>
+                <li><a href="#" class="dropdown-item">Testimonials</a></li>
+                <li><a href="#" class="dropdown-item">Help</a></li>
+              </ul>
+              <div class="auth d-flex justify-content-center">
+                <a href="#" class="signin border border-dark rounded mx-1 px-md-5 px-4 py-md-3"
+                  ><span>Sign In</span></a
+                >
+                <a href="#" class="signup rounded mx-1 px-md-5 px-4 py-md-3"
+                  ><span>Sign Up</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ==============================main============================== -->
+    <div id="main">
+      <!-- ==============================section_hero============================== -->
+      <section id="section_hero" class="py-lg-5 py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 p-0">
+              <div
+                class="section_content d-flex flex-column align-items-center align-items-lg-start"
+              >
+                <h2 class="text-center text-lg-start">
+                  Want anything to be easy with <strong>Tech2</strong>.
+                </h2>
+                <p class="text-center text-lg-start">
+                  Provide a network for all your needs with ease and fun using
+                  <span>LaslesVPN</span> discover interesting features from us.
+                </p>
+                <a href="#" class="d-block d-sm-inline-block text-center my-0 my-lg-4"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 p-0">
+              <div class="section_image d-flex justify-content-center">
+                <img src="./images/banner_hero.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==============================counter============================== -->
+      <div id="counter">
+        <div class="container py-lg-5 py-0">
+          <div class="row">
+            <div class="item_counter d-flex justify-content-center col-lg-4 py-lg-4 py-3 py-3">
+              <div class="icon_user">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="users">
+                <span>90+</span>
+                <p>User</p>
+              </div>
+            </div>
+            <div class="item_counter d-flex justify-content-center col-lg-4 py-lg-4 py-3 py-3">
+              <div class="icon_user">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="locations">
+                <span>30+</span>
+                <p>Locations</p>
+              </div>
+            </div>
+            <div class="item_counter d-flex justify-content-center col-lg-4 py-lg-4 py-3 py-3">
+              <div class="icon_user">
+                <i class="fas fa-server"></i>
+              </div>
+              <div class="servers">
+                <span>50+</span>
+                <p>Servers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==============================section_features============================== -->
+      <section id="section_features" class="py-lg-5 py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="feature_image lg-text-center d-sm-flex justify-content-center">
+                <img src="./images/feature.png" />
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="feature_content">
+                <h3 class="text-lg-start text-center">
+                  We Provide Many <br />
+                  Features You Can Use
+                </h3>
+                <p class="text-lg-start text-center">
+                  You can explore the features that we provide with fun and have their own functions
+                  each feature.
+                </p>
+                <ul class="list_feature d-flex flex-column align-items-center align-items-lg-start">
+                  <div class="feature_item d-flex align-items-center">
+                    <div class="icon_check">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p>Powerfull online protection.</p>
+                  </div>
+                  <div class="feature_item d-flex align-items-center">
+                    <div class="icon_check">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p>Powerfull online protection.</p>
+                  </div>
+                  <div class="feature_item d-flex align-items-center">
+                    <div class="icon_check">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p>Powerfull online protection.</p>
+                  </div>
+                  <div class="feature_item d-flex align-items-center">
+                    <div class="icon_check">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
+                    <p>Powerfull online protection.</p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==============================plans============================== -->
+      <section id="plans" class="py-lg-5 py-4">
+        <div class="container">
+          <div class="plans_title mb-md-5 mb-4">
+            <h3 class="text-center">Choose Your Plan</h3>
+            <p class="text-center">
+              Let's choose the package that is best for you and explore it happily and cheerfully.
+            </p>
+          </div>
+          <div class="list_plan">
+            <div class="row">
+              <div class="col-md-4 col-12 mb-md-0 mb-3 justify-content-center d-flex">
+                <div
+                  class="item_plan d-flex flex-column align-between pt-lg-5 pt-4 h-md-25 auto h-0"
+                >
+                  <div class="img_plan">
+                    <img src="./images/plan.png" alt="" />
+                  </div>
+                  <h4>Free Plan</h4>
+                  <ul class="infor_plan">
+                    <li>
+                      <p><i class="fas fa-check mr-lg-2 mr-0"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check mr-lg-2 mr-0"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check mr-lg-2 mr-0"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check mr-lg-2 mr-0"></i>Unlimited Bandwitch</p>
+                    </li>
+                  </ul>
+                  <div class="price mt-auto">
+                    <p><span>Free</span></p>
+                    <a href="#">Select</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-12 mb-md-0 mb-3 justify-content-center d-flex">
+                <div class="item_plan d-flex flex-column align-between pt-lg-5 pt-4">
+                  <div class="img_plan">
+                    <img src="./images/plan.png" alt="" />
+                  </div>
+                  <h4>Free Plan</h4>
+                  <ul class="infor_plan">
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                  </ul>
+                  <div class="price mt-auto">
+                    <p><span>$9</span> / mo</p>
+                    <a href="#">Select</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-md-4 col-12
+                  mb-md-0 mb-3
+                  justify-content-center
+                  d-flex
+                  justify-content-md-end
+                "
+              >
+                <div class="item_plan d-flex flex-column align-between pt-lg-5 pt-4">
+                  <div class="img_plan">
+                    <img src="./images/plan.png" alt="" />
+                  </div>
+                  <h4>Free Plan</h4>
+                  <ul class="infor_plan">
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-check"></i>Unlimited Bandwitch</p>
+                    </li>
+                  </ul>
+                  <div class="price mt-auto">
+                    <p><span>$12 </span>/ mo</p>
+                    <a href="#">Select</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==============================network============================== -->
+      <section id="network" class="py-lg-5 py-4">
+        <div class="container">
+          <div class="network_title text-center">
+            <h3>Huge Global Network of Fast VPN</h3>
+            <p class="mb-lg-5 mb-5">
+              See <span>LaslesVPN</span> everywhere to make it easier for you when you move
+              locations.
+            </p>
+          </div>
+          <div class="network_img d-flex justify-content-center">
+            <img src="./images/network.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <div id="partner">
+        <div class="container">
+          <ul class="d-flex justify-content-between align-items-center">
+            <li><img src="./images/partner/logo_netflix.png" alt="" /></li>
+            <li><img src="./images/partner/logo_reddit.png" alt="" /></li>
+            <li><img src="./images/partner/logo_amazon.png" alt="" /></li>
+            <li><img src="./images/partner/logo_discord.png" alt="" /></li>
+            <li><img src="./images/partner/logo_spotify.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ==============================member============================== -->
+      <section id="member">
+        <div class="container">
+          <h3 class="text-center">Trusted by Thousands of Happy Customer</h3>
+          <p class="text-center">
+            These are the stories of our customers who have joined us with great pleasure when using
+            this crazy feature.
+          </p>
+          <div class="row">
+            <div class="list_member">
+              <div class="item_member">
+                <div class="infor_member row">
+                  <div class="d-flex justify-content-between align-center">
+                    <div class="name_member d-flex">
+                      <div class="img_member">
+                        <img src="./images/members/member_1.png" alt="" />
+                      </div>
+                      <div class="align-self-center">
+                        <h5>Viezh Robert</h5>
+                        <span>Warsaw, Poland</span>
+                      </div>
+                    </div>
+                    <div class="rate d-sm-flex d-none align-items-center">
+                      <span>4.5</span>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment row">
+                  <p>“Wow... I am very happy to use this VPN, LaslesVPN always the best”.</p>
+                </div>
+              </div>
+              <div class="item_member">
+                <div class="infor_member row">
+                  <div class="d-flex justify-content-between">
+                    <div class="name_member d-flex">
+                      <div class="img_member">
+                        <img src="./images/members/member_3.png" alt="" />
+                      </div>
+                      <div class="align-self-center">
+                        <h5>Kim Young Jou</h5>
+                        <span>Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="rate d-sm-flex d-none align-items-center">
+                      <span>4.5</span>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment row">
+                  <p>“This is very unusual for my business.”.</p>
+                </div>
+              </div>
+              <div class="item_member">
+                <div class="infor_member row">
+                  <div class="d-flex justify-content-between">
+                    <div class="name_member d-flex align-center">
+                      <div class="img_member">
+                        <img src="./images/members/member_2.png" alt="" />
+                      </div>
+                      <div class="align-self-center">
+                        <h5>Yessica Christy</h5>
+                        <span>Shanxi, China</span>
+                      </div>
+                    </div>
+                    <div class="rate d-sm-flex d-none align-items-center">
+                      <span>4.5</span>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment row">
+                  <p>
+                    “I like it because I like to travel far and still can connect with high speed.”.
+                  </p>
+                </div>
+              </div>
+              <div class="item_member">
+                <div class="infor_member row">
+                  <div class="d-flex justify-content-between">
+                    <div class="name_member d-flex align-center">
+                      <div class="img_member">
+                        <img src="./images/members/member_3.png" alt="" />
+                      </div>
+                      <div class="align-self-center">
+                        <h5>Kim Young Jou</h5>
+                        <span>Seoul, South Korea</span>
+                      </div>
+                    </div>
+                    <div class="rate d-sm-flex d-none align-items-center">
+                      <span>4.5</span>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment row">
+                  <p>“This is very unusual for my business.”.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ==========================footer======================= -->
+    <footer id="footer">
+      <!-- ==========================subscribe======================= -->
+      <section class="subscribe">
+        <div class="container py-3 py-md-5 px-1 px-lg-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8 col-12">
+              <div class="action d-flex flex-column align-items-center align-items-lg-start mb-3">
+                <h3 class="text-center text-lg-start">Subscribe Now for Get Special Features!</h3>
+                <p class="text-center text-lg-start">Let's subscribe with us and find the fun.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12 d-flex justify-content-center">
+              <a href="#" class="btn-subscribe">Subscribe Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="row">
+          <div class="col col-12 col-lg-6 p-0 mb-3 lg-sm-0">
+            <h5 class="d-flex justify-content-lg-start justify-content-center">
+              <a href="#"><img src="./images/logo_footer.png" alt="" /></a>
+            </h5>
+            <p class="text-center text-lg-start mx-lg-0 mx-auto">
+              <span>LaslesVPN</span> is a private virtual network that has unique features and has
+              high security.
+            </p>
+            <ul class="socials d-flex justify-content-lg-start justify-content-center">
+              <li>
+                <a href="#" class="d-flex justify-content-center"
+                  ><i class="align-self-center fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-center"
+                  ><i class="align-self-center fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="d-flex justify-content-center"
+                  ><i class="align-self-center fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-4 col-lg-2 p-0">
+            <div
+              class="
+                footer_product footer_category
+                d-flex
+                flex-column
+                align-items-center align-items-lg-start
+              "
+            >
+              <h5>Product</h5>
+              <ul class="d-flex flex-column text-lg-start text-center">
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Server</a></li>
+                <li><a href="#">Countries</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-4 col-lg-2 p-0">
+            <div
+              class="
+                footer_engage footer_category
+                d-flex
+                flex-column
+                align-items-center align-items-lg-start
+              "
+            >
+              <h5>Engage</h5>
+              <ul class="d-flex flex-column text-lg-start text-center">
+                <li><a href="#">LaslesVPN ?</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">About Us ?</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li class=""><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col col-4 col-lg-2 p-0">
+            <div
+              class="
+                footer_earn_money footer_category
+                d-flex
+                flex-column
+                align-items-center align-items-lg-start
+              "
+            >
+              <h5>Earn Money</h5>
+              <ul class="d-flex flex-column text-lg-start text-center">
+                <li><a href="#">Affiliate</a></li>
+                <li><a href="#">Become Partner</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+  </body>
+</html>

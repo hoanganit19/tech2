@@ -1,0 +1,45 @@
+#header {
+  padding: 35.5px 0;
+  z-index: 3;
+  background: #fff;
+}
+#header ul {
+  margin-bottom: 0;
+}
+.menu ul > li > a {
+  color: var(--color-text);
+  padding: 13px 14px;
+}
+.auth a {
+  color: #0b132a;
+  padding: 13px 45px;
+  font-weight: 500;
+}
+.auth .signup {
+  color: #f53855;
+  border: 1px solid #f53855;
+  transition: all 0.3s ease-in-out;
+}
+.auth .signup:hover {
+  background: #f53855;
+  color: #fff;
+}
+.btn-hamburger-menu {
+  color: #f53855;
+}
+.dropdown-menu {
+  width: 100%;
+  inset: 20px auto auto 0 !important;
+  box-shadow: 0px 4px 8px rgb(240, 238, 238);
+}
+/* ======================responsive======================== */
+@media (max-width: 575.98px) {
+  .menu > h1 {
+    width: 110px;
+  }
+}
+@media (max-width: 991.98px) {
+  #header {
+    position: fixed !important;
+  }
+}

@@ -1,0 +1,30 @@
+#section_features {
+    padding: 127px 0;
+  }
+  .feature_content {
+    margin-top: 40px;
+  }
+  .feature_content h3 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .feature_content p {
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: var(--color-text);
+  }
+  .list_feature {
+    padding: 0;
+  }
+  .feature_item {
+    margin-bottom:15px;
+  }
+  .feature_item .icon_check {
+    color: #2FAB73;
+    margin-right: 13px;
+  }
+  .feature_item p {
+    margin: 0;
+  }

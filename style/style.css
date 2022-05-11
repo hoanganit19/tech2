@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "header.css";
+@import "section_hero.css";
+@import "counter.css";
+@import "section_features.css";
+@import "section_plan.css";
+@import "network.css";
+@import "partner.css";
+@import "section_member.css";
+@import "footer.css";
+.sticky {
+  padding: 16px 0 !important;
+  scroll-behavior: smooth;
+  box-shadow: 0px 4px 10px rgb(228, 226, 226);
+  transition: all 0.4s ease-in-out;
+}
+/* ======================responsive======================== */
+@media (max-width: 575.98px) {
+  .container {
+    width: 94%;
+  }
+  h3 {
+    font-size: 28px !important;
+    line-height: 42px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+  a {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  h2 {
+    line-height: 66px !important;
+  }
+}

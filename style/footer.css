@@ -1,0 +1,91 @@
+/* =====================footer====================== */
+/* ===================subscribe================== */
+.subscribe >.container {
+    padding: 58px 70px;
+    background: #fff;
+    box-shadow: 0px 6px 20px rgb(241, 241, 241);
+    border-radius: 10px;
+    position: absolute;
+    top:-128px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .subscribe h3 {
+    max-width: 371px;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .subscribe p {
+      line-height: 30px;
+      color: var(--color-text);
+      margin: 0px;
+  }
+  .btn-subscribe {
+      background: #F53838;
+      color: #fff !important;
+      box-shadow: 0px 10px 30px #fff;
+      display: inline-block;
+      padding: 17.5px 65px;
+      margin: auto 0;
+      border-radius: 10px;
+      transition: all 0.2s ease-in;
+  }
+  .btn-subscribe:hover {
+    box-shadow: 0px 10px 30px rgba(245, 56, 56, 0.35);
+    background: #ff4747;
+  }
+  #footer {
+    background: #F8F8F8;
+    padding: 200px 0 20px 0;
+    position: relative;
+  }
+  #footer ul {
+    padding-left: 0;
+  
+  }
+  #footer .col:nth-child(1) h5 {
+    margin-bottom: 20px;
+  }
+  #footer .col:nth-child(1) p {
+    max-width:340px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  #footer .col:nth-child(1) p span {
+    color: #4F5665;
+    font-weight:500;
+  }
+  .socials li {
+    margin-right: 20px;
+  }
+  .socials li a {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 0px 10px 20px rgb(209, 208, 208);
+    transition: all 0.3s ease-in;
+  }
+  .socials li a:hover {
+    background: #f53838;
+    color: #fff;
+  }
+  .socials li a:hover i {
+    color: #fff;
+  }
+  .socials i {
+    color: #f53838;
+  }
+  .footer_category h5 {
+    margin-bottom:20px;
+  }
+  .footer_category ul li {
+    margin-bottom:10px;
+    line-height: 30px;
+  }
+  .footer_category ul li a {
+    color: var(--color-text);
+  }
+  /* ======================responsive======================== */

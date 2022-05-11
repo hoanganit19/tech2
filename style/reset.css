@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+:root{
+    --color-text: #4F5665;
+  }
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    width: 1136px;
+}
+/* =====================slick============= */
+.slick-arrow {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius:50px;
+    outline: none;
+    border: none;
+    border: 2px solid #F53838;
+    color: #F53838;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.slick-arrow:hover {
+    background-color: #F53838;
+    color: #fff;
+}
+.slick-next {
+    right: 0;
+}
+.slick-prev {
+    right: 80px;
+}
+.slick-dots {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    height:60px;
+    align-items: center;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.slick-initialized .slick-slide {
+    margin: 0 21px;
+}
+.slick-dots li[role="presentation"] {
+    margin-right: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background:#DDE0E4;
+    text-indent: 909px !important;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.slick-dots li[role="presentation"] >button{
+    background: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+.slick-dots li.slick-active {
+    width: 45px;
+    background: #F53838;
+}
+/* ===============scroll bar================ */
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #EB5757;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f73838;
+    cursor: pointer;
+  }

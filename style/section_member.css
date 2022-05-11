@@ -1,0 +1,92 @@
+#member {
+  padding: 50px 0 160px 0;
+  /* background: red; */
+}
+#member h3 {
+  margin: 0 auto 20px auto;
+  max-width: 384px;
+}
+#member .container > p {
+  color: var(--color-text);
+  max-width: 555px;
+  margin: 0 auto 60px auto;
+  line-height: 30px;
+}
+.list_member {
+  position: relative;
+  padding-bottom: 120px;
+}
+.item_member {
+  max-width: 400px;
+  height: 230px;
+  padding: 24px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.item_member:hover {
+border-color: #F53838;
+}
+.img_member {
+  display: inline block;
+  margin-right: 21px;
+  max-width:100%
+}
+.img_member img {
+  object-fit: cover;
+  max-width: 100%;
+}
+.infor_member {
+  margin-bottom: 12px;
+}
+.name_member >div:nth-child(2) >h5 {
+  color: #0B132A;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.name_member >div:nth-child(2) >span {
+  font-size: 14px;
+  color:var(--color-text);
+}
+.rate i {
+  color: #fea250;
+}
+.rate > span {
+  margin-right: 12px;
+}
+.comment {
+  line-height: 30px;
+  color: var(--color-text);
+  margin-bottom: auto;
+}
+.comment p {
+  margin-bottom: 0;
+  color: #0B132A;
+}
+.control .dots {
+    width: auto;
+}
+.dots .dot {
+    background: #DDE0E4;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    margin:0 15px;
+}
+.arrows >.arrow {
+    color: red;
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ======================responsive======================== */
+  @media screen and (max-width: 768px) {
+    #member {
+      padding: 50px 0 80px 0;
+    }
+ }
