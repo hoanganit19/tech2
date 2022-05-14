@@ -29,6 +29,24 @@ $(document).ready(function () {
       },
     ],
   });
+  
+function goToByScroll(id) {
+
+    // Scroll
+    id = id.replace('#', '.');
+
+    $('html,body').animate({
+        scrollTop: $(id).offset().top
+    }, 1);
+}
+
+$(".primary-menu > li > a").click(function(e) {
+    // Prevent a page reload when a link is pressed
+    e.preventDefault();
+    // Call the scroll function
+    
+    goToByScroll(this.getAttribute('href'));
+});
 });
 // ==================Resize Header on Scroll======================
 window.addEventListener("scroll", function () {

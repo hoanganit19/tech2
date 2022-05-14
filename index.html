@@ -20,8 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
    
     <!-- ========================lib slick======================== -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
@@ -62,12 +62,12 @@
             <h1 class="text-center">
               <a href="#"><img src="./images/logo-tech2.svg" style="max-width: 147px;" alt="" /></a>
             </h1>
-            <ul class="d-flex justify-content-center align-items-center d-none d-lg-flex">
-              <li><a href="#">Trang chủ</a></li>
-              <li><a href="#">Về chúng tôi</a></li>
-              <li><a href="#">Tầm nhìn - Sứ mệnh</a></li>
-              <li><a href="#">Sản phẩm - Dịch vụ</a></li>
-              <li><a href="#">Liên hệ</a></li>
+            <ul class="primary-menu d-flex justify-content-center align-items-center d-none d-lg-flex">
+              <li><a href="index.html">Trang chủ</a></li>
+              <li><a href="#about-us">Về chúng tôi</a></li>
+              <li><a href="#people">Con người Tech2</a></li>
+              <li><a href="#products">Sản phẩm - Dịch vụ</a></li>
+              <li><a href="#contact-us">Liên hệ</a></li>
             </ul>
             <!-- <div class="auth d-lg-flex d-none">
               <a href="#" class="signin px-5"><span>Sign In</span></a>
@@ -87,13 +87,13 @@
               class="dropdown-menu d-xs-block d-lg-none rounded-0 border-bottom border-top py-4"
               id="navbarToggle"
             >
-              <ul class="d-flex justify-content-center flex-column flex-sm-row px-0">
-                <li><a href="#" class="dropdown-item">Trang chủ</a></li>
-                <li><a href="#" class="dropdown-item">Về chúng tôi</a></li>
-                <li><a href="#" class="dropdown-item">Tầm nhìn - Sứ mệnh</a></li>
-                <li><a href="#" class="dropdown-item">Sản phẩm - Dịch vụ</a></li>
-                <li><a href="#" class="dropdown-item">Liên hệ</a></li>
+              <ul class="primary-menu d-flex justify-content-center flex-column flex-sm-row px-0">
                
+                <li><a href="index.html" class="dropdown-item">Trang chủ</a></li>
+                <li><a href="#about-us" class="dropdown-item">Về chúng tôi</a></li>
+                <li><a href="#people" class="dropdown-item">Con người Tech2</a></li>
+                <li><a href="#products" class="dropdown-item">Sản phẩm - Dịch vụ</a></li>
+                <li><a href="#contact-us" class="dropdown-item">Liên hệ</a></li>
               </ul>
               <!-- <div class="auth d-flex justify-content-center">
                 <a href="#" class="signin border border-dark rounded mx-1 px-md-5 px-4 py-md-3"
@@ -122,10 +122,10 @@
                   Công nghệ thật đơn giản với <strong>Tech2</strong>.
                 </h2>
                 <p class="text-center text-lg-start">
-                  Chúng tôi không ngừng nỗ lực mang công nghệ đến cuộc sống
+                  Chúng tôi không ngừng nỗ lực, đổi mới, sáng tạo mang công nghệ đến với cuộc sống.
                   <!-- <span>LaslesVPN</span> discover interesting features from us. -->
                 </p>
-                <a href="#" class="d-block d-sm-inline-block text-center my-0 my-lg-4"
+                <a href="https://www.messenger.com/t/tech2software" target="_blank" class="d-block d-sm-inline-block text-center my-0 my-lg-4"
                   >Liên hệ với chúng tôi</a
                 >
               </div>
@@ -173,7 +173,7 @@
         </div>
       </div>
       <!-- ==============================section_features============================== -->
-      <section id="section_features" class="py-lg-5 py-3">
+      <section id="section_features" class="py-lg-5 py-3 about-us">
         <div class="container">
           <div class="row">
             <div class="col-lg-7">
@@ -200,7 +200,7 @@
         </div>
       </section>
 
-      <section id="section_features" class="py-lg-5 py-3">
+      <section id="section_features" class="py-lg-5 py-3 people">
         <div class="container">
           <div class="row">
             <div class="col-lg-5">
@@ -211,27 +211,27 @@
                 <p class="text-lg-start text-center">
                   Tại <b>Tech2</b> chúng tôi lấy yếu tố con người làm nền tảng cho sự phát triển chung lâu dài của công ty
                 </p>
-                <ul class="list_feature d-flex flex-column align-items-center align-items-lg-start">
-                  <div class="feature_item d-flex align-items-center">
+                <ul class="list_feature d-flex flex-column">
+                  <div class="feature_item d-flex">
                     <div class="icon_check">
                       <i class="fas fa-check-circle"></i>
                     </div>
                     <p>Tư duy sáng tạo</p>
                   </div>
-                  <div class="feature_item d-flex align-items-center">
+                  <div class="feature_item d-flex ">
                     <div class="icon_check">
                       <i class="fas fa-check-circle"></i>
                     </div>
                     <p>Không ngừng nỗ lực</p>
                   </div>
-                  <div class="feature_item d-flex align-items-center">
+                  <div class="feature_item d-flex">
                     <div class="icon_check">
                       <i class="fas fa-check-circle"></i>
                     </div>
                     <p>Nền tảng kiến thức</p>
                   </div>
 
-                  <div class="feature_item d-flex align-items-center">
+                  <div class="feature_item d-flex">
                     <div class="icon_check">
                       <i class="fas fa-check-circle"></i>
                     </div>
@@ -252,7 +252,7 @@
         </div>
       </section>
       <!-- ==============================plans============================== -->
-      <section id="plans" class="py-lg-5 py-4">
+      <section id="plans" class="py-lg-5 py-4 products">
         <div class="container">
           <div class="plans_title mb-md-5 mb-4">
             <h3 class="text-center">Sản phẩm và dịch vụ</h3>
@@ -270,7 +270,7 @@
                     <img src="./images/plan.png" alt="" />
                   </div>
                   <h4>Đào tạo nhân sự IT</h4>
-                  <ul class="infor_plan">
+                  <ul class="infor_plan text-start px-5">
                     <li>
                       <p><i class="fas fa-check mr-lg-2 mr-0"></i>Khoá học đa dạng</p>
                     </li>
@@ -290,7 +290,7 @@
                   </ul>
                   <div class="price mt-auto">
                     <!-- <p><span>Free</span></p> -->
-                    <a href="#">Đăng ký</a>
+                    <a href="https://www.messenger.com/t/tech2software" target="_blank">Đăng ký</a>
                   </div>
                 </div>
               </div>
@@ -300,7 +300,7 @@
                     <img src="./images/plan.png" alt="" />
                   </div>
                   <h4>Phát triển phần mềm</h4>
-                  <ul class="infor_plan">
+                  <ul class="infor_plan text-start px-5">
                     <li>
                       <p><i class="fas fa-check"></i>Giải pháp web</p>
                     </li>
@@ -317,7 +317,7 @@
                   </ul>
                   <div class="price mt-auto">
             
-                    <a href="#">Đặt hàng</a>
+                    <a href="https://www.messenger.com/t/tech2software" target="_blank">Đặt hàng</a>
                   </div>
                 </div>
               </div>
@@ -335,7 +335,7 @@
                     <img src="./images/plan.png" alt="" />
                   </div>
                   <h4>Cung ứng nhân sự</h4>
-                  <ul class="infor_plan">
+                  <ul class="infor_plan text-start px-5">
                     <li>
                       <p><i class="fas fa-check"></i>Đa dạng ứng viên</p>
                     </li>
@@ -352,7 +352,7 @@
                   </ul>
                   <div class="price mt-auto">
         
-                    <a href="#">Đặt hàng</a>
+                    <a href="https://www.messenger.com/t/tech2software" target="_blank">Đặt hàng</a>
                   </div>
                 </div>
               </div>
@@ -374,25 +374,13 @@
           </div>
         </div>
       </section>
-      <div id="partner">
-        <div class="container">
-          <ul class="d-flex justify-content-between align-items-center">
-            <li><img src="./images/nodemy.png" alt="" /></li>
-            <li><img src="https://static.fullstack.edu.vn/static/media/f8-icon.7ad2b161d5e80c87e516.png" alt="" /></li>
-            <li><img src="./images/holetex.jpeg" alt="" /></li>
-            <li><img src="https://laptrinhcuocsong.com/images/logo.jpg" alt="" /></li>
-            <li><img src="./images/vuongkhang.png" alt=""></li>
-            <li><img src="https://unicode.vn/wp-content/uploads/2020/10/UNICODE_logo.png" alt="" /></li>
-          </ul>
-        </div>
-      </div>
+      
       <!-- ==============================member============================== -->
       <section id="member">
         <div class="container">
-          <h3 class="text-center">Trusted by Thousands of Happy Customer</h3>
+          <h3 class="text-center">Được tin tưởng bởi hàng ngàn khách hàng - học viên</h3>
           <p class="text-center">
-            These are the stories of our customers who have joined us with great pleasure when using
-            this crazy feature.
+            Cùng lắng nghe cảm nhận từ những khách hàng - học viên đã trải nghiệm dịch vụ, khoá học tại Tech2
           </p>
           <div class="row">
             <div class="list_member">
@@ -492,7 +480,7 @@
       </section>
     </div>
     <!-- ==========================footer======================= -->
-    <footer id="footer">
+    <footer id="footer" class="contact-us">
       <!-- ==========================subscribe======================= -->
       <section class="subscribe">
         <div class="container py-3 py-md-5 px-1 px-lg-5">
@@ -501,12 +489,12 @@
               <div class="action d-flex flex-column align-items-center align-items-lg-start mb-3">
                 <h3 class="text-center text-lg-start">Liên hệ với chúng tôi</h3>
                 <p class="text-center text-lg-start">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut eveniet quasi exercitationem velit assumenda fugit optio, distinctio nemo alias inventore debitis impedit cupiditate delectus voluptate molestiae sapiente quidem maiores.
+                  Hãy liên hệ với Tech2 để được tư vấn về sản phẩm - dịch vụ, lộ trình các khoá học, giải pháp phần mềm
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-12 d-flex justify-content-center">
-              <a href="#" class="btn-subscribe">Liên hệ ngay</a>
+              <a href="https://www.messenger.com/t/tech2software" class="btn-subscribe" target="_blank">Liên hệ ngay</a>
             </div>
           </div>
         </div>
@@ -550,11 +538,13 @@
                 align-items-center align-items-lg-start
               "
             >
-              <h5>Dịch vụ</h5>
+              <h5>Đối tác</h5>
               <ul class="d-flex flex-column text-lg-start text-center">
-                <li><a href="#">Đào tạo nhân sự IT</a></li>
-                <li><a href="#">Phát triển phần mềm</a></li>
-                <li><a href="#">Cung ứng nhân sự</a></li>
+                <li><a href="https://www.youtube.com/channel/UC5CIt5W4kq4ie0KJEdg2ztg" target="_blank">Lập trình viên TV</a></li>
+                <li><a href="https://www.nodemy.vn/" target="_blank">Nodemy</a></li>
+                <li><a href="https://fullstack.edu.vn" target="_blank">F8 - Fullstack</a></li>
+                <li><a href="https://www.youtube.com/c/holetex" target="_blank">HoleTex</a></li>
+                
               </ul>
             </div>
           </div>
@@ -616,7 +606,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
     <script type="text/javascript" src="./app.js"></script>
   </body>
 </html>
