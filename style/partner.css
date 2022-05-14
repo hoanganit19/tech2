@@ -7,3 +7,8 @@
   #partner ul li {
     padding:0;
   }
+
+#partner img{
+  height: 58px;
+  width: auto;
+}
