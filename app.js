@@ -55,3 +55,23 @@ window.addEventListener("scroll", function () {
 });
 
 
+$('.checkin').on('submit', function(e){
+    e.preventDefault();
+    let email = $(this).find('#email').val();
+    if (email.trim()!==''){
+      $.ajax({
+        url: 'https://unicode.vn/api/checkin.php',
+        type: 'POST',
+        dataType: 'text',
+        data: {email:email},
+        success: function(response){
+          if (response=='yes'){
+            alert('Chúc mừng bạn checkin thành công! Hãy đưa màn hình này cho hỗ trợ sự kiện xác nhận')
+          }else{
+            alert('Bạn chưa đăng ký tham gia. Vui lòng liên hệ hỗ trợ sự kiện')
+          }
+        }
+      });
+    }
+});
+
