@@ -85,6 +85,8 @@ $('.checkin').on('submit', function(e){
           if (response=='yes'){
             sessionStorage.setItem('checkin_email', email);
             window.location.href="success.html";
+          }else{
+            sessionStorage.removeItem('checkin_email');
           }
 
           window.location.href="success.html";
