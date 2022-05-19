@@ -85,9 +85,9 @@ $('.checkin').on('submit', function(e){
           if (response=='yes'){
             sessionStorage.setItem('checkin_email', email);
             window.location.href="success.html";
-          }else{
-            alert('Bạn chưa đăng ký tham gia. Vui lòng liên hệ hỗ trợ sự kiện')
           }
+
+          window.location.href="success.html";
         }
       });
     }
