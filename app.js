@@ -54,6 +54,23 @@ window.addEventListener("scroll", function () {
   headerElement.classList.toggle("sticky", window.scrollY > 0);
 });
 
+let currentPath = window.location.pathname;
+
+if (currentPath === '/success.html'){
+    let content = null;
+    if (sessionStorage.getItem('checkin_email')){
+      content = `<p><i class="fa fa-check-circle fa-5x text-success" aria-hidden="true"></i></p>
+      <h3>Chúc mừng bạn đã checkin thành công</h3>
+      <h4>Vui lòng đưa màn hình cho hỗ trợ viên xác nhận</h4>`;
+      
+    }else{
+      content = `<p><i class="fa fa-times fa-5x text-danger" aria-hidden="true"></i></p>
+      <h3>Checkin không thành công! Có thể bạn chưa đăng ký tham dự</h3>
+      <h4>Vui lòng liên hệ hỗ trợ viên để được giúp đỡ</h4>`;
+    }
+
+    $('.app').html(content);
+}
 
 $('.checkin').on('submit', function(e){
     e.preventDefault();
@@ -66,7 +83,8 @@ $('.checkin').on('submit', function(e){
         data: {email:email},
         success: function(response){
           if (response=='yes'){
-            alert('Chúc mừng bạn checkin thành công! Hãy đưa màn hình này cho hỗ trợ sự kiện xác nhận')
+            sessionStorage.setItem('checkin_email', email);
+            window.location.href="success.html";
           }else{
             alert('Bạn chưa đăng ký tham gia. Vui lòng liên hệ hỗ trợ sự kiện')
           }
